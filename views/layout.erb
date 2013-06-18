@@ -1,0 +1,63 @@
+<html>
+  <head>
+    <title> Camel Skin </title>
+  </head>
+    <style>
+    body{
+      background-color: #5C2525;
+      text-align: center;
+    }
+    h1{
+      color: #F0A804;
+      padding: 20 10 20 10;
+      font-size: 50px;
+    }
+
+    iframe{
+      padding: 30 20 30 20;
+      background-color: #F0A804;
+    }
+
+    img{
+      padding: 30 20 30 20;
+      background-color: #F0A804;
+    }
+
+    header{
+      color: #F0A804;
+      text-align: right;
+    }
+    a{
+      padding: 5px;
+      text-decoration: none;
+    }
+    a:link {
+      color:#F0A804;
+    }
+
+    a:visited {
+      color:#F0A804;
+    }
+
+    a:hover {
+      color:#F0A804;
+      text-decoration: underline;
+    }
+
+    a:active {
+      color:#F0A804;
+    }
+    </style>
+    <body>
+      <h1> Camel Skin </h1>
+    <header>
+      <nav>
+        <a href = "/"> Home </a>
+        <a href = "/hi"> Hi </a>
+        <a href = "/skateboard"> Skateboard </a>
+      </nav>
+    </header>
+      <%= yield %>
+      <p> Produced by Camel Corp.</p>
+    </body>
+</html>

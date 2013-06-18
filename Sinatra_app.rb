@@ -1,9 +1,14 @@
 require 'sinatra'
 
+
+get '/' do
+  erb :home
+end
+
 get '/hi' do
-  erb :hello
+  erb :hi
 end
 
 get '/skateboard' do
-  erb :sinatra
+  erb :skateboard
 end
